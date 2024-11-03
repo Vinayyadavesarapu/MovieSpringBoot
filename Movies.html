@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies - Movie Website</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="mystyles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="Home.html">Movie World</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="Login.html">Login</a></li>
+            <li class="nav-item"><a class="nav-link" href="Signup.html">Sign Up</a></li>
+            <li class="nav-item active"><a class="nav-link" href="Movies.html">Movies</a></li>
+            <li class="nav-item"><a class="nav-link" href="About2.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="Contact2.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container my-5">
+      <h2 class="text-center mb-4">All Movies</h2>
+      <div class="row mb-4">
+        <div class="col-md-6">
+          <label for="genre" class="font-weight-bold">Filter by Genre:</label>
+          <select id="genre" class="form-control">
+            <option value="all">All</option>
+            <option value="action">Action</option>
+            <option value="drama">Drama</option>
+            <option value="comedy">Comedy</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="year" class="font-weight-bold">Filter by Year:</label>
+          <select id="year" class="form-control">
+            <option value="all">All</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Movie Card 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="1.jpg" class="card-img-top" alt="Saripodhaa Sanivaaram" />
+            <div class="card-body">
+              <h5 class="card-title">Saripodhaa Sanivaaram</h5>
+              <p class="card-text">
+                <strong>Genre:</strong> Action/Thriller<br />
+                <strong>Release Year:</strong> 2024
+              </p>
+              <p class="card-text">
+                Saripodhaa Sanivaaram is a 2024 Indian Telugu-language vigilante
+                action thriller film written and directed by Vivek Athreya. It is
+                produced by D. V. V. Danayya under DVV Entertainment.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Movie Card 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="2.jpg" class="card-img-top" alt="Mr. Bachchan" />
+            <div class="card-body">
+              <h5 class="card-title">Mr. Bachchan</h5>
+              <p class="card-text">
+                <strong>Genre:</strong> Action/Drama<br />
+                <strong>Release Year:</strong> 2024
+              </p>
+              <p class="card-text">
+                Based on the real-life income tax raid conducted on Indian
+                industrialist Sardar Inder Singh.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Movie Card 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="3.jpg" class="card-img-top" alt="Buddy" />
+            <div class="card-body">
+              <h5 class="card-title">Buddy</h5>
+              <p class="card-text">
+                <strong>Genre:</strong> Action/Comedy<br />
+                <strong>Release Year:</strong> 2024
+              </p>
+              <p class="card-text">
+                Buddy is a 2024 Indian Telugu-language fantasy action film written
+                and directed by Sam Anton and produced by K. E. Gnanavel Raja.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Movie Card 4-->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="4.jpg" class="card-img-top" alt="Purushothamudu" />
+            <div class="card-body">
+              <h5 class="card-title">Purushothamudu</h5>
+              <p class="card-text">
+                <strong>Genre:</strong> Action/ Drama/Romantic<br />
+                <strong>Release Year:</strong> 2024
+              </p>
+              <p class="card-text">
+                Short Description: Purushothamudu is a 2024 Indian Telugu-language
+                action drama film written and directed by Ram Bhimana. The film
+                features Raj Tarun and Hassini Sudhir in lead roles. Purushothamudu
+                was released on 26 July 2024.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Movie Card 5-->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="5.jpg" class="card-img-top" alt="Double iSmart" />
+            <div class="card-body">
+              <h5 class="card-title">Double iSmart</h5>
+              <p class="card-text">
+                <strong>Genre:</strong> Action/Sci-fi<br />
+                <strong>Release Year:</strong> 2024
+              </p>
+              <p class="card-text">
+                Short Description: When a dead police officer's memories are
+                transplanted to his brain, an assassin assists the authorities.
+              </p>
+            </div>
+          </div>
+        </div>
+         <!--Movie Card 6-->
+         <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="6.jpg" class="card-img-top" alt="35" />
+            <div class="card-body">
+              <h5 class="card-title">35</h5>
+              <p class="card-text">
+                <strong>Genre:</strong> Comedy/Family<br />
+                <strong>Release Year:</strong> 2024
+              </p>
+              <p class="card-text">
+                Short Description: Revolves around a young mother facing challenges
+            when her son fails to secure passing marks, igniting events that
+            test the family's resilience and unity.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Movie Card 7-->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="7.jpg" class="card-img-top" alt="Kalki 2898 AD" />
+            <div class="card-body">
+              <h5 class="card-title">Kalki 2898 AD</h5>
+              <p class="card-text">
+                <strong>Genre:</strong> Sci-fi/Action<br />
+                <strong>Release Year:</strong> 2024
+              </p>
+              <p class="card-text">
+                Short Description: A modern avatar of the Hindu god Vishnu, is said
+                to have descended on Earth to protect the world from evil forces.
+              </p>
+            </div>
+          </div>
+        </div>
+         <!--Movie Card 8-->
+         <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="8.jpg" class="card-img-top" alt="Harom Hara" />
+            <div class="card-body">
+              <h5 class="card-title">Harom Hara</h5>
+              <p class="card-text">
+                <strong>Genre:</strong> Action/Drama<br />
+                <strong>Release Year:</strong> 2024
+              </p>
+              <p class="card-text">
+                Short Description: When a man loses job and faces financial ruin, he
+            enters the illegal arms trade, eventually becoming South India's
+            most notorious arms dealer.
+              </p>
+            </div>
+          </div>
+        </div>
+         <!--Movie Card 9-->
+         <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="9.jpg" class="card-img-top" alt="Pekamedalu" />
+            <div class="card-body">
+              <h5 class="card-title">Pekamedalu</h5>
+              <p class="card-text">
+                <strong>Genre:</strong> Comedy/Drama<br />
+                <strong>Release Year:</strong> 2024
+              </p>
+              <p class="card-text">
+                Short Description: Pekamedalu is a 2024 Indian Telugu-language
+            comedy drama film directed by Neelagiri Mamilla and produced by
+            Rakesh Varre through Crazy Ants Productions. The film features
+            Vinoth Kishan and Anoosha Krishna in lead roles, with music composed
+            by Smaran. Pekamedalu was released on 19 July 2024.
+              </p>
+            </div>
+          </div>
+        </div>
+         <!--Movie Card 10-->
+         <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="10.jpg" class="card-img-top" alt="Raayan" />
+            <div class="card-body">
+              <h5 class="card-title">Raayan</h5>
+              <p class="card-text">
+                <strong>Genre:</strong> Action/Drama<br />
+                <strong>Release Year:</strong> 2024
+              </p>
+              <p class="card-text">
+                Short Description: After his family is killed, a young man trains to
+                avenge their murders. Seeking those responsible, his quest leads him
+                through the criminal underworld.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional movie cards go here, following the same structure -->
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
